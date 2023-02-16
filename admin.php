@@ -84,7 +84,7 @@
 								<div class="form-group text-right">
 									<button class="btn btn-primary btn-block" name="submit">Login</button>
 								</div>
-								
+								<a href="index.php">Back to index</a>
 							</form>
 						</div>
 					</div>

@@ -15,8 +15,6 @@ body {
   
 }
 
-
-
 @media (any-pointer:fine) {
   .cursor {
     position: fixed;

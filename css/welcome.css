@@ -68,19 +68,20 @@ body::-webkit-scrollbar-thumb
   width: 100%;
 }
 .logo img{
-  width: 45%;
-  height: 30%;
+  width: 35%;
+  height: 20%;
 }
 
 .footer {
-  position: relative;
+  position: fixed;
+  bottom: 0;
   margin-top: 1%;
   padding: 1%;
   display: flex;
   justify-content: space-between;
   background-color: var(--highlight-bg-color);
   color: var(--text-color);
-  width: auto;
+  width: 100%;
 }
 .footer p {
   font-size: 14px;
@@ -113,12 +114,49 @@ body::-webkit-scrollbar-thumb
   
 }
 
+.navbar-header{
+  background-color:  var(--highlight-bg-color);
+}
+
+.navbar-collapse{
+  background-color:var(--highlight-bg-color);
+}
+
+b{
+  color: black;
+}
+
+.container-fluid{
+  background-color: var(--highlight-bg-color);
+}
+
+a{
+  color: #581845 !important;
+}
+
+a:hover{
+  color: var(--text-color) !important;
+}
+
+.btn {
+  background-color: #581845;
+}
+
+.btn:hover{
+  color: var(--highlight-bg-color) ;
+}
+
 .panel{
   border-color:rgb(0, 0, 0);
-  background-color: var(--text-color);
-  margin:40px;
+  background-color: var(--highlight-bg-color);
+  margin: 40px;
   padding:3px;
-  font: 15px "Noto Sans";
+  font: 20px "Noto Sans";
+  color: var(--text-color);
+  }
+
+  h1{
+    color: var(--highlight-bg-color) !important;
   }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Tableau style!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
