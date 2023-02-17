@@ -131,7 +131,7 @@ if (!(isset($_SESSION['email']))) {
                                 <tr style="color:red"><td>Wrong Answer&nbsp;<span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></td><td>' . $w . '</td></tr>
                                 <tr style="color:#66CCFF"><td>Score&nbsp;<span class="glyphicon glyphicon-star" aria-hidden="true"></span></td><td>' . $s . '</td></tr>';
                     }
-                    $q = mysqli_query($con, "SELECT * FROM rank WHERE  email='$email' ") or die('Error157');
+                    $q = mysqli_query($con, "SELECT * FROM `rank` WHERE  email='$email' ") or die('Error157');
                     while ($row = mysqli_fetch_array($q)) {
                         $s = $row['score'];
                         echo '<tr style="color:#990000"><td>Overall Score&nbsp;<span class="glyphicon glyphicon-stats" aria-hidden="true"></span></td><td>' . $s . '</td></tr>';
@@ -165,7 +165,7 @@ if (!(isset($_SESSION['email']))) {
                 }
 
                 if (@$_GET['q'] == 3) {
-                    $q = mysqli_query($con, "SELECT * FROM rank ORDER BY score DESC ") or die('Error223');
+                    $q = mysqli_query($con, "SELECT * FROM `rank` ORDER BY score DESC ") or die('Error223');
                     echo  '<div class="panel title"><div class="table-responsive">
                         <table class="table table-striped title1" >
                         <tr style="color:red"><th><center><b>Rank</b></center></th><th><center><b>Name</b></center></th><th><center><b>Email</b></center></th><th><center><b>Score</b></center></th></tr>';

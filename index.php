@@ -25,10 +25,12 @@
                 <a href="login.php" class="btn"> login </a> &emsp;
                 <a href="register.php" class="btn"> register </a>
                 <h2> Have &nbsp;Fun. </h2>
+                <a href="ratings.php" class="btn">Rate our game !</a>
             </div>
         </center>
         <div class="credit">
-            <p class="text-credit">Made By:</p>
+            
+            <!-- <p class="text-credit">Made By:</p> -->
         </div>
         <div class="logo-2">
         <div class="espace">
